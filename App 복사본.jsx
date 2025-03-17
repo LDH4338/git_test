@@ -24,6 +24,7 @@ function App() {
     // 이건 팀장이 main브랜치에서 만든 두번째 변경사항
     // 이건 팀장이 main브랜치에서 만든 세번째 변경사항
     // 이건 이동환이 fork clone 과정 후 commit함
+    // ??
   }
   const [isAuth, setIsAuth] = useState(tokenAtClient())
 
