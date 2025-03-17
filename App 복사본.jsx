@@ -21,6 +21,7 @@ function App() {
     return localStorage.getItem("access_token")
     // 이게 서버에 요청보내고 응답 받는거라면? + 김윤오 병신 + git branch 생성+ 다시해볼까? 다시 main에서 newbranch secondbranch commit
     // 이건 팀장이 main브랜치에서 만든 변경사항
+    // 이건 팀장이 main브랜치에서 만든 두번째 변경사항
   }
   const [isAuth, setIsAuth] = useState(tokenAtClient())
 
