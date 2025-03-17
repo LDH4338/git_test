@@ -19,7 +19,7 @@ function App() {
   // console.log('app');
   const tokenAtClient = () => {
     return localStorage.getItem("access_token")
-    // 이게 서버에 요청보내고 응답 받는거라면?
+    // 이게 서버에 요청보내고 응답 받는거라면? + 김윤오 병신 + git branch 생성+ 다시해볼까?
   }
   const [isAuth, setIsAuth] = useState(tokenAtClient())
 
